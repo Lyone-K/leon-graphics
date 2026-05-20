@@ -161,7 +161,7 @@ function Navbar({ active, go }: { active: string; go: (section: string) => void 
         <button onClick={() => go("Home")} style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: 11, padding: 0 }}>
           <Logo size={38} />
           <div style={{ textAlign: "left" }}>
-            <div style={{ color: C.white, fontWeight: 900, fontSize: 17, letterSpacing: "0.14em", lineHeight: 1 }}>LEON</div>
+            <div style={{ color: C.white, fontWeight: 900, fontSize: 17, letterSpacing: "0.14em", lineHeight: 1 }}></div>
             <div style={{ color: C.blue, fontSize: 8, letterSpacing: "0.18em", lineHeight: 1.4, marginTop: 1 }}></div>
           </div>
         </button>
