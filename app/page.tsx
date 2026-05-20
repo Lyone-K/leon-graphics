@@ -88,7 +88,7 @@ function useMouse() {
 }
 
 
-const LOGO_PNG = "/images/LEON-logo.png"; // ← replace with your actual image path or base64
+const LOGO_PNG = "/images/logon.png"; // ← replace with your actual image path or base64
 
 function Logo({ size = 44, spin = false, src = LOGO_PNG }) {
   const [failed, setFailed] = useState(false);
