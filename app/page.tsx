@@ -162,7 +162,7 @@ function Navbar({ active, go }: { active: string; go: (section: string) => void 
           <Logo size={38} />
           <div style={{ textAlign: "left" }}>
             <div style={{ color: C.white, fontWeight: 900, fontSize: 17, letterSpacing: "0.14em", lineHeight: 1 }}>LEON</div>
-            <div style={{ color: C.blue, fontSize: 8, letterSpacing: "0.18em", lineHeight: 1.4, marginTop: 1 }}>GRAPHICS DESIGN &amp; BRANDING</div>
+            <div style={{ color: C.blue, fontSize: 8, letterSpacing: "0.18em", lineHeight: 1.4, marginTop: 1 }}></div>
           </div>
         </button>
         <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
