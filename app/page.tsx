@@ -20,8 +20,8 @@ const PROJECTS = [
   { img:"/images/project2.png",cat:"Web Design/Dev",catIcon:"🖥️",title:"DEVs / FIGMA UI KIT",desc:"Responsive web design & dev for a creative tech startup." },
   { img:"/images/project3.png",cat:"UI/UX",catIcon:"🌐",title:"E-COMMERCE DESIGNS/DEV",desc:"End-to-end e-commerce design, frontend & backend build." },
   { img:"/images/project4.jpg",cat:"Print",catIcon:"🖨️",title:"LEON PACKAGING",desc:"Premium packaging design — business cards, brochures, banners." },
-  { img:"/images/project5.jpg",cat:"Social Media",catIcon:"📱",title:"SOCIALS' CAMPAIGN",desc:"Vibrant advertising poster series for social media launch." },
-  { img:"/images/project6.jpg",cat:"Brand Strategy",catIcon:"🚀",title:"LEON REBRAND",desc:"Full rebrand with positioning strategy and new visual identity." },
+  { img:"/images/project5.pgn",cat:"Social Media",catIcon:"📱",title:"SOCIALS' CAMPAIGN",desc:"Vibrant advertising poster series for social media launch." },
+  { img:"/images/project6.pgn",cat:"Brand Strategy",catIcon:"🚀",title:"LEON REBRAND",desc:"Full rebrand with positioning strategy and new visual identity." },
 ];
 
 const PROCESS = [
