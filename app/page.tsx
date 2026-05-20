@@ -159,7 +159,7 @@ function Navbar({ active, go }: { active: string; go: (section: string) => void 
     <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 200, background: scrolled ? "rgba(3,7,15,0.96)" : "transparent", backdropFilter: scrolled ? "blur(16px)" : "none", borderBottom: scrolled ? `1px solid rgba(59,130,246,0.12)` : "none", transition: "all 0.45s ease", padding: "0 5%" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 70 }}>
         <button onClick={() => go("Home")} style={{ background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", gap: 11, padding: 0 }}>
-          <Logo size={80} />
+          <Logo size={100} />
           <div style={{ textAlign: "left" }}>
             <div style={{ color: C.white, fontWeight: 900, fontSize: 17, letterSpacing: "0.14em", lineHeight: 1 }}></div>
             <div style={{ color: C.blue, fontSize: 8, letterSpacing: "0.18em", lineHeight: 1.4, marginTop: 1 }}></div>
