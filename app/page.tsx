@@ -16,12 +16,12 @@ const SERVICES = [
 ];
 
 const PROJECTS = [
-  { img:"https://leon-graphics-design-branding.vercel.app/project1.png",cat:"Branding",catIcon:"🎨",title:"LEON BRAND CO.",desc:"Modern logo and full visual identity for a premium lifestyle brand." },
-  { img:"https://leon-graphics-design-branding.vercel.app/project2.png",cat:"Web Design/Dev",catIcon:"🖥️",title:"DEVs / FIGMA UI KIT",desc:"Responsive web design & dev for a creative tech startup." },
-  { img:"https://leon-graphics-design-branding.vercel.app/project3.jpg",cat:"UI/UX",catIcon:"🌐",title:"E-COMMERCE DESIGNS/DEV",desc:"End-to-end e-commerce design, frontend & backend build." },
-  { img:"https://leon-graphics-design-branding.vercel.app/project4.png",cat:"Print",catIcon:"🖨️",title:"LEON PACKAGING",desc:"Premium packaging design — business cards, brochures, banners." },
-  { img:"https://leon-graphics-design-branding.vercel.app/project5.jpg",cat:"Social Media",catIcon:"📱",title:"SOCIALS' CAMPAIGN",desc:"Vibrant advertising poster series for social media launch." },
-  { img:"https://leon-graphics-design-branding.vercel.app/project6.jpg",cat:"Brand Strategy",catIcon:"🚀",title:"LEON REBRAND",desc:"Full rebrand with positioning strategy and new visual identity." },
+  { img:"/images/project1.png",cat:"Branding",catIcon:"🎨",title:"LEON BRAND CO.",desc:"Modern logo and full visual identity for a premium lifestyle brand." },
+  { img:"/images/project2.png",cat:"Web Design/Dev",catIcon:"🖥️",title:"DEVs / FIGMA UI KIT",desc:"Responsive web design & dev for a creative tech startup." },
+  { img:"/images/project3.png",cat:"UI/UX",catIcon:"🌐",title:"E-COMMERCE DESIGNS/DEV",desc:"End-to-end e-commerce design, frontend & backend build." },
+  { img:"/images/project4.jpg",cat:"Print",catIcon:"🖨️",title:"LEON PACKAGING",desc:"Premium packaging design — business cards, brochures, banners." },
+  { img:"/images/project5.jpg",cat:"Social Media",catIcon:"📱",title:"SOCIALS' CAMPAIGN",desc:"Vibrant advertising poster series for social media launch." },
+  { img:"/images/project6.jpg",cat:"Brand Strategy",catIcon:"🚀",title:"LEON REBRAND",desc:"Full rebrand with positioning strategy and new visual identity." },
 ];
 
 const PROCESS = [
@@ -266,16 +266,16 @@ function About() {
           <div style={{ position: "relative" }}>
             <div style={{ width: "100%", aspectRatio: "1", maxWidth: 440, margin: "0 auto", background: `linear-gradient(135deg,rgba(59,130,246,.14),rgba(8,15,34,.9))`, border: `1px solid rgba(59,130,246,.18)`, display: "flex", alignItems: "center", justifyContent: "center", position: "relative", overflow: "hidden" }}>
               {/* FIX: cast e.target to HTMLImageElement for .style and .parentNode access */}
-              <img src="https://leon-graphics-design-branding.vercel.app/logonn.png" alt="LEON Design Studio" style={{ width: "72%", objectFit: "contain", opacity: 0.92 }}
+              <img src="/images/logon.png" alt="LEON Design Studio" style={{ width: "72%", objectFit: "contain", opacity: 0.92 }}
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
               <div style={{ position: "absolute", inset: 0, backgroundImage: "repeating-linear-gradient(45deg,rgba(59,130,246,.03) 0px,rgba(59,130,246,.03) 1px,transparent 1px,transparent 22px)" }} />
             </div>
             <div style={{ position: "absolute", bottom: -18, right: -18, background: C.blue, padding: "18px 26px", zIndex: 2 }}>
-              <div style={{ color: C.white, fontSize: 26, fontWeight: 900, lineHeight: 1 }}>3+</div>
+              <div style={{ color: C.white, fontSize: 26, fontWeight: 900, lineHeight: 1 }}>2+</div>
               <div style={{ color: "rgba(255,255,255,.7)", fontSize: 8.5, letterSpacing: "0.22em" }}>YEARS EXP.</div>
             </div>
             <div style={{ position: "absolute", top: -18, left: -18, background: C.navy0, border: `1px solid rgba(59,130,246,.25)`, padding: "14px 20px", zIndex: 2 }}>
-              <div style={{ color: C.blue, fontSize: 20, fontWeight: 900, lineHeight: 1 }}>50+</div>
+              <div style={{ color: C.blue, fontSize: 20, fontWeight: 900, lineHeight: 1 }}>25+</div>
               <div style={{ color: "rgba(255,255,255,.5)", fontSize: 8, letterSpacing: "0.2em" }}>PROJECTS</div>
             </div>
           </div>
